@@ -1,5 +1,3 @@
-<snippet>
-  <content><![CDATA[
 # Hotel API Example App
 This is a HTML/CSS/JavaScript + Ajax example of grabbing and presenting data from a fake Hotel API.
 ## Contributing
