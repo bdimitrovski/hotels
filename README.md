@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-# ${1:Hotel API Example App}
-This is a HTML/CSS/JavaScript + Ajax example of grabbing and presenting data from a fake Hotel API. 
+# Hotel API Example App
+This is a HTML/CSS/JavaScript + Ajax example of grabbing and presenting data from a fake Hotel API.
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
