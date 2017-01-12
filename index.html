@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://rawgithub.com/timrwood/moment/2.9.0/min/moment.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <section class="container-fluid">
+    <div class="container container-pad" id="property-listings">
+       <div class="row">
+         <div class="col-md-12">
+          <h1 class="text-center">Holiday Pirates Hotels Yarrr!</h1>
+            <div class="text-center">
+               <!-- CTA -->
+               <button class="button text-center">LOAD HOTELS</button>
+             </div>
+         </div>
+
+           <!-- Hotels holder -->
+           <div class="hotels"></div>
+
+           <!-- Reviews modal -->
+           <div class="modal fade" id="hotelReviews" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+             <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                   <h4 class="modal-title" id="reviewLabel">Hotel Reviews</h4>
+                 </div>
+                 <div class="modal-body">
+                 </div>
+               </div>
+             </div>
+           </div>
+
+           <!-- Errors modal -->
+           <div class="modal fade" id="error" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+             <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                   <h4 class="modal-title" id="errorLabel">Error!</h4>
+                 </div>
+                 <div class="modal-body">
+                 </div>
+               </div>
+             </div>
+           </div>
+       </div>
+    </div>
+    </section>
+  </body>
+</html>
