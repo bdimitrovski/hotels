@@ -22,7 +22,7 @@ $(document).ready(function() {
                     let positive = data[key].positive;
 
                     // rating check and adding minus or plus sign
-                    let review = positive ? "<i class='fa fa-plus-circle rating' aria-hidden='true'>" + "</i>" : "<i class='fa fa-minus-circle rating' aria-hidden='true'>" + "</i>"
+                    let review = positive ? "<i class='fa fa-plus-circle rating' aria-hidden='true'></i>" : "<i class='fa fa-minus-circle rating' aria-hidden='true'></i>"
 
                     // initialize modal and append data
                     $("#hotelReviews")
@@ -73,7 +73,7 @@ $(document).ready(function() {
                 $('.hotels').append(
                   "<div class='col-md-12 col-lg-12'>"
                   + "<img class='img-responsive thumbnail col-md-6' src='"+ images[0] +"'>"
-                  + "<div class='col-md-6 pull-right'>"
+                  + "<div class='col-md-6'>"
                   + '<div class="rating pull-right">' + stars + '</div>'
                   + '<h1 class="hotel-name">'+ name + '</h1>'
                   + "<span class='location'>"+ city + ' - '+ country + '</span>' + '<br />' + '<br />'
