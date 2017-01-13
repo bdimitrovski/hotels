@@ -1,12 +1,7 @@
 $(document).ready(function() {
 
-  // destroy reviews modal on close
-  $("#hotelReviews").on('hidden.bs.modal', function () {
-      $(".modal-body").html("");
-  });
-
-  // destroy error modal on close
-  $("#error").on('hidden.bs.modal', function () {
+  // destroy reviews and error modal on close
+  $("#hotelReviews, #error").on('hidden.bs.modal', function () {
       $(".modal-body").html("");
   });
 
